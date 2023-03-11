@@ -1,0 +1,26 @@
+
+<script>
+
+class Student{
+    constructor (name, age, department){
+    this.name=name
+    this.age=age
+    this.dept = department
+    }
+    sayHi() {
+        alert(this.name, this.age, this.dept);
+    }
+    ageCheck(){
+        if (this.age > 25) {
+            alert(this.name);
+        }
+    }
+
+}
+let User1 = new Student ("John", 23, "Mathematics");
+let User2 = new Student ("Salam", 27, "Physics");
+let User3 = new Student ("Mike", 25, "Chemistry");
+
+User1.sayHi()
+
+</script>
